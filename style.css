@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+
+@font-face {
+  font-family: 'MajaKolanovic';
+  src: url('mojfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body.index h1 {
+  font-family: 'MajaKolanovic';
+  font-size: 70px;
+}
+
+
+body.index h2 {
+  font-family: 'Times New Roman';
+  font-size: 30px;
+}
+
+body.o_meni h1 {
+  font-size: 70px;
+}
+
+body.o_meni h2 {
+  font-family: 'Times New Roman';
+  font-size: 30px;
+}
+
+body.o_meni h3 {
+  font-family: 'Times New Roman';
+  font-size: 25px;
+}
+
+body.vjezbe h1 {
+  font-size: 70px;
+}
+
+body.vjezbe h2 {
+  font-size: 30px;
+}
+
+body.vjezbe h3 {
+  font-size: 25px;
+}
+
+body.video h1 {
+  font-size: 70px;
+}
+
+
+body {
+  background-image: url('Slike/pozadina.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+body *:not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) {
+  font-family: "Times New Roman";
+  color: darkgreen;
+  font-size: 25px;
+}
+
+
+nav {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul.navigacija {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  display: inline-flex;
+  gap: 15px;
+}
+
+nav ul.navigacija li {
+  border: 2px solid #008000;
+  border-radius: 6px;
+  background: transparent;
+}
+
+nav ul.navigacija li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: rgba(0, 128, 0, 0.7);
+  font-size: 20px;
+  font-family: 'Times New Roman';
+  font-weight: bold;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul.navigacija li a:hover {
+  color: rgba(0, 128, 0, 0.95);
+  background-color: rgba(0, 128, 0, 0.1);
+  cursor: pointer;
+}
+
+
+h1, h2, h3 {
+  text-align: center;
+  font-family: "Times New Roman";
+  font-weight: normal;
+  color: purple;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+
+p {
+  text-align: center;
+}
+
+
+.slike {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  margin-top: 80px;
+}
+
+.slika {
+  width: 250px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.slika.gitara, 
+.slika.knjiga {
+  height: 400px;
+}
+
+
+.linkovi {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.linkovi li {
+  margin: 10px 0;
+}
+
+
+.naslov-video {
+  margin-top: 80px;
+}
+
+
+.moji-radovi {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.moji-radovi img {
+  margin: 20px;
+  width: 250px;
+  height: 200px;
+  border-radius: 0px;
+}
+
+
+.origami-radovi {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+.vjezbe-galerija {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 20px;
+}
+
+.vjezbe-galerija-drugi {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 60px;
+}
+
+.vjezbe-galerija-treci {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 80px;
+  justify-content: center;
+}
+
+
+.slika-box {
+  flex: 0 0 auto;
+  width: 200px;
+  text-align: center;
+}
+
+.slika-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.slika-box p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: darkgreen;
+  font-family: 'Times New Roman';
+  text-align: center;
+}
+
+.slika-box p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: darkgreen;
+  font-family: 'Times New Roman';
+  text-align: center;
+
+  
